@@ -344,5 +344,31 @@ ol.lista > li.mas:before {
             margin-left: 10px;
             border-top: 1px solid orange;
         }
-    }
-    
+        
+            .resize2 {
+            border: 3px double #333;
+            float: left;
+            height: 5em;
+            margin: .2em 1em 1em 0;
+            overflow: hidden;
+            width: 12em;
+            }
+       
+            .resize2 img {
+            margin: -220px 0 0 -210px;
+            padding: 6em 0 0 6em;
+            }
+        
+            .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background:#3B5FBF;
+            padding: 20px;
+            }
+        }
+
+        .rect-blue {
+            color: #0c0b0b;
+            background-color:#2EC8EE;
+          }
