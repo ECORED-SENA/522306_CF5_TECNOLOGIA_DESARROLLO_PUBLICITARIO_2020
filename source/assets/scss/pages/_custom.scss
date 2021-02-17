@@ -4,6 +4,7 @@
 
 .collapsable-title{
     color:black;
+
 }
 // Estilos tema 2
 
@@ -76,17 +77,29 @@
         align-items: center;
         font-weight: 700;
 
-        span.number {
+        .span.number {
             background-color: $brand-color-dark;
             color: $primary;
             padding: 7px;
             margin-right: 1.5rem;
-            
             text-align: center;
+
+        .span.text {
+            background-color: #82683F;
+            color: $primary;
+            padding: 10px;
+            margin-right: 1.5rem;
+            text-align: left;
+
+        }    
         }
     }
 }
 
+ .col.text { 
+    background: #82683F; /*Color cafe para el fondo*/
+    color:#fff;  /*Color blanco para el texto seleccionado*/
+}
 .table .thead-orange th {
     color: $white;
     background-color: $orange;
@@ -252,3 +265,84 @@ ol.lista > li.mas:before {
 .border-bottom-orange {
     border-bottom: 5px solid $dark-orange;    
 }
+
+.bg-1 {
+
+    background: #EAEAEA;
+
+}
+
+.bg-2 {
+    background: #FFCC58;
+
+}
+
+.bg-3 {
+    background: #FFFFFF;
+
+}
+
+
+.bg-4 {
+    background: #EBEBEB;
+
+}
+
+
+.bg-5 {
+    background: #82683F;
+
+}
+
+.sub-ecored {
+    h2,
+    h3 {
+      overflow: hidden;
+      font-weight: 700;
+    }
+}
+
+    .sub-ecored-teme {
+        h2,
+        h3 {
+          overflow: hidden;
+          font-weight: 700;
+        }
+    }
+          
+    table, td   {
+        border: 3px solid rgb(69, 118, 165);
+    }
+
+    #visor_imagenes {
+            text-align: center;
+          }
+
+    .blanco-cafe {
+        color: #FFFFFF;
+        background-color: #82683F;
+      }
+      
+    .negro-gris {
+        color: #0c0b0b;
+        background-color: #EBEBEB;
+      }
+      
+      .sub-ecored {
+        h2,h3 {
+            overflow: hidden;
+            font-weight: 700;
+        }
+    
+        h2:after,h3:after {
+            content:"";
+            display: inline-block;
+            height: 0.5em;
+            vertical-align: bottom;
+            width: 100%;
+            margin-right: -100%;
+            margin-left: 10px;
+            border-top: 1px solid orange;
+        }
+    }
+    
