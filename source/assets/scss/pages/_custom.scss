@@ -343,32 +343,49 @@ ol.lista > li.mas:before {
             margin-right: -100%;
             margin-left: 10px;
             border-top: 1px solid orange;
-        }
-        
-            .resize2 {
-            border: 3px double #333;
-            float: left;
-            height: 5em;
-            margin: .2em 1em 1em 0;
-            overflow: hidden;
-            width: 12em;
-            }
-       
-            .resize2 img {
-            margin: -220px 0 0 -210px;
-            padding: 6em 0 0 6em;
-            }
-        
-            .center {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background:#3B5FBF;
-            padding: 20px;
-            }
-        }
+      
 
         .rect-blue {
             color: #0c0b0b;
             background-color:#2EC8EE;
           }
+
+        }
+        
+        .resize2 {
+        border: 3px double #333;
+        float: left;
+        height: 5em;
+        margin: .2em 1em 1em 0;
+        overflow: hidden;
+        width: 12em;
+        }
+   
+        .resize2 img {
+        margin: -220px 0 0 -210px;
+        padding: 6em 0 0 6em;
+        }
+    
+        .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:#3B5FBF;
+        padding: 20px;
+        }
+    }
+    .recuadro-gris {
+        background-color: #EAEAEA !important;
+        border-radius: 1.5rem;
+        margin: 5px;
+    }
+
+    .recuadro-content {
+    margin: 50px;
+        }
+    
+    .recuadro-yellow {
+        background-color: #FFCC58 !important;
+        border: 10.5rem;
+        margin: 30px;
+    }

@@ -20,7 +20,7 @@
         "icon": "fa fa-file-text",
         "slug": "definicion",
         "title": "Definiciones de creatividad",
-        "anchor": "tema1_3"
+        "anchor": "tema1_2"
       },
       {
         "icon": "fa fa-play-circle",
@@ -32,7 +32,7 @@
         "icon": "fa fa-file-text",
         "slug": "Desarrollo",
         "title": "Desarrollo de la estrategia",
-        "anchor": "tema2_1"
+        "anchor": "tema2_2"
       }
     ]   
   },
